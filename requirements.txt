@@ -1,0 +1,4 @@
+ddgs
+bs4
+rich
+click

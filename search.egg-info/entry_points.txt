@@ -1,0 +1,3 @@
+[console_scripts]
+fetch = search.main:fetch
+search = search.main:search

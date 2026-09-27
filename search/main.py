@@ -49,13 +49,6 @@ def search(query:str, num:int):
 [bold]URL : [/]{results[item]["href"]}
             """
             console.print(content)
-            """
-            console.print("")
-            console.print(f"[bold]Number: {item}[/bold]")
-            console.print(f"[bold]Title: {results[item]['title']}[/bold]")
-            console.print(f"[cyan]Content: [/cyan]", Markdown(results[item]['body']))
-            console.print(f"[dim]Link: {results[item]['href']}[/dim]")
-            console.print(f"\n")"""
         return results
     except Exception as e:
         anim.stop()

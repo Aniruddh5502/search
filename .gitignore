@@ -1,6 +1,5 @@
 # Folders
 build/
-_pycache__/
-
+__pycache__/
 # Files
 .env
